@@ -33,7 +33,7 @@ public class GameLogic_3 : MonoBehaviour
 	private int currentSolveIndex = 0;
 
 	/* Uncomment the line below during 'A Little More Feedback!' lesson.*/
-	//public GameObject failAudioHolder;
+	public GameObject failAudioHolder;
 
 	void Start()
 	{
@@ -212,7 +212,7 @@ public class GameLogic_3 : MonoBehaviour
 
 		// Get the GVR audio source component on the failAudioHolder and play the audio.
 		/* Uncomment the line below during 'A Little More Feedback!' lesson.*/
-		//failAudioHolder.GetComponent<GvrAudioSource>().Play();
+		failAudioHolder.GetComponent<GvrAudioSource>().Play();
 
 		// Reset the index the player is trying to solving.
 		currentSolveIndex = 0;

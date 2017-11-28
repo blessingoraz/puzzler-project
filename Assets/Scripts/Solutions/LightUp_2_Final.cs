@@ -23,7 +23,7 @@ public class LightUp_2_Final : MonoBehaviour
 		// Assign the initial material of the orb as the default material.
 		defaultMaterial = this.GetComponent<MeshRenderer>().material;
 	}
-		
+
 	// Called when the orb is clicked.
 	// This function can be hooked up in Unity by adding a Pointer Click event trigger to the orb.
 	public void PlayerSelection()
